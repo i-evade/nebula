@@ -1,0 +1,27 @@
+{
+    "name": "nebulaweb",
+    "version": "7.0.4",
+    "description": "Explore the web. Freely. ",
+    "type": "module",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "educational",
+        "math",
+        "science"
+    ],
+    "author": "Nebula Services",
+    "license": "Copyright Nebula Services. All Rights Reserved.",
+    "dependencies": {
+        "@tomphttp/bare-server-node": "^1.0.2-beta-readme5",
+        "bare-server-node": "github:tomphttp/bare-server-node",
+        "crypto-js": "4.1.1",
+        "css-tree": "^2.1.0",
+        "express": "^4.18.2",
+        "node-fetch": "^3.2.6",
+        "node-static": "^0.7.11",
+        "ws": "^8.8.1"
+    }
+}
